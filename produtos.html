@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt--BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eletro Recod-Produtos</title>
+    <link rel=" stylesheet" href="./estilo.css">
+    <script type="text/javascript" src="./interacao.js"></script>
+
+</head>
+
+<body>
+
+    <nav id="menu">
+        <a href="index.html">
+            <img src="./img/WhatsApp Image 2020-09-23 at 7.40.04 PM.jpeg" width="33%" alt="Recod eletro"></a>
+        <a id="t1" href="produtos.html">Produtos</a>
+        <a id="t1" href="lojas.html">Nossas Lojas</a>
+        <a id="t1" href="contatos.html">Contatos</a>
+        <br>
+    </nav>
+    <br><br>
+    <div class="baner">
+        <img width="100%" src="./img/header-surpresa.webp">
+        <img width="200px" src="./img/24x.png">
+        <img width="700px " src="./img/1000x408_Topo_3_Outlet_27032020_02.webp">
+    </div>
+    <br> <br> <br> <br> <br> <br> <br>
+
+    <ul>
+        <h3>Categorias </h3>
+        <br>
+
+        <li onclick="todos()">Todos (12)
+        </li>
+        <li onclick="lista('fogao')">Fogão (4)
+        </li>
+        <li onclick="lista('geladeira')"> Geladeira (5)
+        </li>
+        <li onclick="lista( 'liquidificador')"> Liquidificador (3)
+        </li>
+        <li onclick="lista('lavadoura')"> Maquina de lavar (2)
+        </li>
+        <li onclick="lista('cafeteira')">Cafeteira (4)
+        </li>
+        <li onclick="lista('ventilador')"> Ventilador (1)
+        </li>
+        <li onclick="lista('torradeira')"> Torradeira (4)
+        </li>
+        <li onclick="lista('televisao')"> Televisão (7)
+        </li>
+        <li onclick="lista('ar')">Arcondicionado (3)
+        </li>
+        <li onclick="lista('radio')">Radio (5)
+        </li>
+        <li onclick="lista('microondas')">microondass (9)
+        </li>
+        <li onclick="lista('impressora')"> Impressora (2)
+        </li>
+    </ul>
+
+    <!--IMAGENS DOS PRODUTOS-->
+    <section class="organizacao">
+
+        <div class="itens1" id="fogao">
+            <img width="100px" height="100px" src="./img/Fogão.jpg " onmouseover="destaque(this)">
+            <p id="text1"> Fogão 5 Bocas Mueller Decorato Acendimento<br> Automático Inox </p>
+            <hr>
+            <p id="text2"> de R$ 1.559,99 por </p>
+            <p id="text3"> R$ 1.424,91 </p>
+        </div>
+
+        <div class="itens1" id="geladeira">
+            <img width="100px" height="100px" src="./img/geladeira.jpg" onmouseover="destaque(this)">
+            <p id="text1"> Geladeira/Refrigerador Brastemp Frost Free Duplex -<br> 375L BRM44 HKBNA </p>
+            <hr>
+            <p id="text2"> de R$ 2.799,00 por </p>
+            <p id="text3"> R$ 2.399,10 </p>
+
+        </div>
+
+        <div class="itens1" id="liquidificador">
+
+            <img width="100px" height="100px" src="./img/liquidificador.jpg" onmouseover="destaque(this)">
+            <p id="text1"> Liquidificador Philco PH900 2L Preto com Filtro-12<br> Velocidades1200W </p>
+            <hr>
+            <p id="text2"> de R$199,00 por </p>
+            <p id="text3"> R$ 109,00 </p>
+        </div>
+        <div class="itens1" id="lavadoura">
+            <img width="100px" height="100px" src="./img/maquina_de_lavar.jpg" onmouseover="destaque(this)">
+            <p id="text1"> Lavadora de Roupas Electrolux 8.5KG <br> Branca LT09E 110V </p>
+            <hr>
+            <p id="text2"> de R$1.273,00 por </p>
+            <p id="text3"> R$1.907,12 </p>
+
+        </div>
+
+        <div class="itens1" id="cafeteira">
+
+            <img width="100px" height="100px" src="./img/cafeteira.jpg" onmouseover="destaque(this)">
+            <p id="text1"> Cafeteira Elétrica Britânia CP15 Xícaras <br> Preto e Inox </p>
+            <hr>
+            <p id="text2"> de R$ 170,00 por </p>
+            <p id="text3"> R$ 97,00 </p>
+        </div>
+
+        <div class="itens1" id="ventilador">
+
+            <img width="100px" height="100px" src="./img/ventilador.jpg" onmouseover="destaque(this)">
+            <p id="text1"> Ventilador de Mesa Arno Silence Repelente Líquido <br>VF55 Preto 110V </p>
+            <hr>
+            <p id="text2"> de R$ 389,00 por </p>
+            <p id="text3"> R$270,00 </p>
+        </div>
+
+        <div class="itens1" id="torradeira">
+
+            <img width="100px" height="100px" src="./img/torradeira.jpg" onmouseover="destaque(this)">
+            <p id="text1"> Torradeira Lenoxx PTR 203 2 Fatias<br> Níveis de Tostagem </p>
+            <hr>
+            <p id="text2"> de R$ 109,00 por </p>
+            <p id="text3"> R$ 69,00 </p>
+        </div>
+
+        <div class="itens1" id="televisao">
+
+            <img width="100px" height="100px" src="./img/televisão.jpg" onmouseover="destaque(this)">
+            <p id="text1">Smart TV LED PRO 43''Full HD LG 43LM 631 3<br> HDMI 2 USB Wi-fi</p>
+            <hr>
+            <p id="text2">de R$ 2,199,40por</p>
+            <p id="text3"> R$ 1.875,90 </p>
+        </div>
+
+        <div class="itens1" id="microondas">
+
+            <img width="100px" height="100px" src="./img/microondas.webp" onmouseover="destaque(this)">
+            <p id="text1"> Electrolux MT30S 20<br> Litros Silver </p>
+            <hr>
+            <p id="text2">de R$ 430,00 por </p>
+            <p id="text3">R$ 270,00</p>
+            <br>
+        </div>
+
+        <div class="itens1" id="impressora">
+
+            <img width="100px" height="100px" src="./img/impressora.webp" onmouseover="destaque(this)">
+            <p id="text1"> Impressora Tanque de Tinta Epson <br>EcoTank L120 Colorida</p>
+            <hr>
+            <p id="text2">de R$ 799,00 por </p>
+            <p id="text3"> R$ 478,00 </p>
+            <br>
+        </div>
+
+        <div class="itens1" id="radio">
+            <img width="100px" height="100px" src="./img/radio.webp" onmouseover="destaque(this)">
+            <br>
+            <p id="text1"> Radio Britania <br>6 Níveis de sons </p>
+            <hr>
+            <p id="text2"> de R$ 789,00 por </p>
+            <p id="text3"> R$ 469,00 </p>
+            <br>
+        </div>
+
+        <div class="itens1" id="ar">
+            <img width="100px" height="100px"
+                src="./img/ar-condicionado-split-samsung-digital-inverter-frio-11-500-btus-220v-1000069787.jpg"
+                onmouseover="destaque(this)">
+            <br>
+            <p id="text1"> Ar-Condicionado Split Samsung Digital<br> 11.500 BTUs -220v </p>
+            <hr>
+            <p id="text2"> de R$ 2,499,40por </p>
+            <p id="text3"> R$ 2.100,90 </p>
+            <br>
+        </div>
+    </section>
+
+
+    <br><br><br><br><br>
+    <!--RODAPÉ-->
+    <footer>
+        <h4>Formas de Pagamento</h4>
+        <img width="50%" src="./img/metodo_de pagamento.png" alt="formas de pagamento">
+        <div id="f">
+            <p> &trade; Recod Eletro </p>
+        </div>
+    </footer>
+</body>
+
+</html>
